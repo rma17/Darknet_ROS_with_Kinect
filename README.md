@@ -17,3 +17,10 @@ Step:
 4. Terminal 2: roslaunch darknet_ros darknet_ros.launch
 
 
+Note:
+1. The image/pcl topic can be either /hd,/sd image or points but they should have same resolution.(/hd/points are quite slow to process on CPU).
+2. Queue_size should also be identical for all the topics subscribed.
+
+#Tested on Ubuntu 18.04 with ROS melodic
+
+

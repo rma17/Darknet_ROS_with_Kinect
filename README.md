@@ -11,9 +11,9 @@ Install:
 
 Step:
 
-Catkin_Make
-Source workspace
-Terminal 1: roslaunch kinect2_bridge kinect2_bridge.launch
-Terminal 2: roslaunch darknet_ros darknet_ros.launch
+1. Catkin_Make
+2. Source workspace
+3. Terminal 1: roslaunch kinect2_bridge kinect2_bridge.launch
+4. Terminal 2: roslaunch darknet_ros darknet_ros.launch
 
 
